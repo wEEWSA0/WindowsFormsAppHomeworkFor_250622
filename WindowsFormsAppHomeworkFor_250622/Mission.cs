@@ -41,7 +41,7 @@ namespace WindowsFormsAppHomeworkFor_250622
             UpdateMission(resource, resourceCount);
         }
 
-        public void CheckMissionCompletion(ref ResourcesManager manager)
+        public void CheckMissionCompletion(ResourcesManager manager)
         {
             if (_isCompleted) { return; }
 

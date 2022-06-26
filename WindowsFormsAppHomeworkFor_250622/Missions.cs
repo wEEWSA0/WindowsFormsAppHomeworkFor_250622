@@ -46,10 +46,10 @@ namespace WindowsFormsAppHomeworkFor_250622
         {
             get { return _missions[res]; }
         }
-        /*
-        public void DeleteResourceType(Resource resource)
+        
+        public void DeleteResourceByIndex(int index)
         {
-            _missions.Remove();
-        }*/
+            _missions.Remove(_missions[index]);
+        }
     }
 }

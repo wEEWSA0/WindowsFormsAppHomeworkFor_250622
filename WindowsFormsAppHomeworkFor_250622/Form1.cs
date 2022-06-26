@@ -70,7 +70,7 @@ namespace WindowsFormsAppHomeworkFor_250622
             {
                 if (missions[i].NecessaryResource == resource)
                 {
-                    missions[i].CheckMissionCompletion(ref resManager);
+                    missions[i].CheckMissionCompletion(resManager);
                 }
             }
         }
